@@ -14,6 +14,7 @@
 		163B0706233BBA3300E6BDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163B0705233BBA3300E6BDB2 /* Assets.xcassets */; };
 		163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */; };
 		163B070C233BBA3300E6BDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B070B233BBA3300E6BDB2 /* main.m */; };
+		163B0714233BBA8900E6BDB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 163B0713233BBA8900E6BDB2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		163B0708233BBA3300E6BDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163B070A233BBA3300E6BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163B070B233BBA3300E6BDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163B0713233BBA8900E6BDB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		163B06ED233BBA3100E6BDB2 = {
 			isa = PBXGroup;
 			children = (
+				163B0713233BBA8900E6BDB2 /* README.md */,
 				163B0712233BBA4800E6BDB2 /* AnimationKit */,
 				163B06F8233BBA3100E6BDB2 /* AnimationKit-demo */,
 				163B06F7233BBA3100E6BDB2 /* Products */,
@@ -80,8 +83,72 @@
 		163B0712233BBA4800E6BDB2 /* AnimationKit */ = {
 			isa = PBXGroup;
 			children = (
+				163B0717233BC19800E6BDB2 /* CAAnimationGroup */,
+				163B0716233BC19800E6BDB2 /* CABasicAnimation */,
+				163B0718233BC19800E6BDB2 /* CADisplayLink */,
+				163B0719233BC19800E6BDB2 /* CAEmitterLayer */,
+				163B071B233BC19800E6BDB2 /* CAKeyframeAnimation */,
+				163B071A233BC19800E6BDB2 /* CATransition */,
+				163B071C233BC19800E6BDB2 /* UIDynamicAnimator */,
+				163B0715233BC0E800E6BDB2 /* UIViewAnimation */,
 			);
 			path = AnimationKit;
+			sourceTree = "<group>";
+		};
+		163B0715233BC0E800E6BDB2 /* UIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewAnimation;
+			sourceTree = "<group>";
+		};
+		163B0716233BC19800E6BDB2 /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		163B0717233BC19800E6BDB2 /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		163B0718233BC19800E6BDB2 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		163B0719233BC19800E6BDB2 /* CAEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAEmitterLayer;
+			sourceTree = "<group>";
+		};
+		163B071A233BC19800E6BDB2 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
+		163B071B233BC19800E6BDB2 /* CAKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAKeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		163B071C233BC19800E6BDB2 /* UIDynamicAnimator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIDynamicAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +210,7 @@
 			files = (
 				163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */,
 				163B0706233BBA3300E6BDB2 /* Assets.xcassets in Resources */,
+				163B0714233BBA8900E6BDB2 /* README.md in Resources */,
 				163B0704233BBA3100E6BDB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
