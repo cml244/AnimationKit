@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1600E19A233F211000AFD2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600E198233F211000AFD2FC /* Main.storyboard */; };
+		1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600E19C233F5C6100AFD2FC /* UIView+MLAnimation.m */; };
+		1600E1A1233F5D3000AFD2FC /* MLViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600E19F233F5D3000AFD2FC /* MLViewAnimationViewController.m */; };
+		1600E1A2233F5D3000AFD2FC /* MLViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600E1A0233F5D3000AFD2FC /* MLViewAnimationViewController.xib */; };
+		1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600E1A4233F5FED00AFD2FC /* MLBaseViewController.m */; };
 		163B06FB233BBA3100E6BDB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B06FA233BBA3100E6BDB2 /* AppDelegate.m */; };
-		163B06FE233BBA3100E6BDB2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B06FD233BBA3100E6BDB2 /* SceneDelegate.m */; };
 		163B0701233BBA3100E6BDB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B0700233BBA3100E6BDB2 /* ViewController.m */; };
-		163B0704233BBA3100E6BDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0702233BBA3100E6BDB2 /* Main.storyboard */; };
 		163B0706233BBA3300E6BDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163B0705233BBA3300E6BDB2 /* Assets.xcassets */; };
 		163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */; };
 		163B070C233BBA3300E6BDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B070B233BBA3300E6BDB2 /* main.m */; };
@@ -18,14 +21,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1600E199233F211000AFD2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1600E19B233F5C6100AFD2FC /* UIView+MLAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLAnimation.h"; sourceTree = "<group>"; };
+		1600E19C233F5C6100AFD2FC /* UIView+MLAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLAnimation.m"; sourceTree = "<group>"; };
+		1600E19E233F5D3000AFD2FC /* MLViewAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewAnimationViewController.h; sourceTree = "<group>"; };
+		1600E19F233F5D3000AFD2FC /* MLViewAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewAnimationViewController.m; sourceTree = "<group>"; };
+		1600E1A0233F5D3000AFD2FC /* MLViewAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLViewAnimationViewController.xib; sourceTree = "<group>"; };
+		1600E1A3233F5FED00AFD2FC /* MLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBaseViewController.h; sourceTree = "<group>"; };
+		1600E1A4233F5FED00AFD2FC /* MLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBaseViewController.m; sourceTree = "<group>"; };
 		163B06F6233BBA3100E6BDB2 /* AnimationKit-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimationKit-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163B06F9233BBA3100E6BDB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		163B06FA233BBA3100E6BDB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		163B06FC233BBA3100E6BDB2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		163B06FD233BBA3100E6BDB2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		163B06FF233BBA3100E6BDB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		163B0700233BBA3100E6BDB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		163B0703233BBA3100E6BDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163B0705233BBA3300E6BDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163B0708233BBA3300E6BDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163B070A233BBA3300E6BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,17 +73,20 @@
 		163B06F8233BBA3100E6BDB2 /* AnimationKit-demo */ = {
 			isa = PBXGroup;
 			children = (
+				1600E198233F211000AFD2FC /* Main.storyboard */,
 				163B06F9233BBA3100E6BDB2 /* AppDelegate.h */,
 				163B06FA233BBA3100E6BDB2 /* AppDelegate.m */,
-				163B06FC233BBA3100E6BDB2 /* SceneDelegate.h */,
-				163B06FD233BBA3100E6BDB2 /* SceneDelegate.m */,
 				163B06FF233BBA3100E6BDB2 /* ViewController.h */,
 				163B0700233BBA3100E6BDB2 /* ViewController.m */,
-				163B0702233BBA3100E6BDB2 /* Main.storyboard */,
 				163B0705233BBA3300E6BDB2 /* Assets.xcassets */,
 				163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */,
 				163B070A233BBA3300E6BDB2 /* Info.plist */,
 				163B070B233BBA3300E6BDB2 /* main.m */,
+				1600E19E233F5D3000AFD2FC /* MLViewAnimationViewController.h */,
+				1600E19F233F5D3000AFD2FC /* MLViewAnimationViewController.m */,
+				1600E1A0233F5D3000AFD2FC /* MLViewAnimationViewController.xib */,
+				1600E1A3233F5FED00AFD2FC /* MLBaseViewController.h */,
+				1600E1A4233F5FED00AFD2FC /* MLBaseViewController.m */,
 			);
 			path = "AnimationKit-demo";
 			sourceTree = "<group>";
@@ -98,6 +109,8 @@
 		163B0715233BC0E800E6BDB2 /* UIViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1600E19B233F5C6100AFD2FC /* UIView+MLAnimation.h */,
+				1600E19C233F5C6100AFD2FC /* UIView+MLAnimation.m */,
 			);
 			path = UIViewAnimation;
 			sourceTree = "<group>";
@@ -208,10 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1600E1A2233F5D3000AFD2FC /* MLViewAnimationViewController.xib in Resources */,
 				163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */,
 				163B0706233BBA3300E6BDB2 /* Assets.xcassets in Resources */,
 				163B0714233BBA8900E6BDB2 /* README.md in Resources */,
-				163B0704233BBA3100E6BDB2 /* Main.storyboard in Resources */,
+				1600E19A233F211000AFD2FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,17 +239,19 @@
 				163B0701233BBA3100E6BDB2 /* ViewController.m in Sources */,
 				163B06FB233BBA3100E6BDB2 /* AppDelegate.m in Sources */,
 				163B070C233BBA3300E6BDB2 /* main.m in Sources */,
-				163B06FE233BBA3100E6BDB2 /* SceneDelegate.m in Sources */,
+				1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */,
+				1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */,
+				1600E1A1233F5D3000AFD2FC /* MLViewAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		163B0702233BBA3100E6BDB2 /* Main.storyboard */ = {
+		1600E198233F211000AFD2FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				163B0703233BBA3100E6BDB2 /* Base */,
+				1600E199233F211000AFD2FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -367,6 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AnimationKit-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AnimationKit-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

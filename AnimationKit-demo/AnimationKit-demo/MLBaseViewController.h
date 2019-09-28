@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MLBaseViewController.h
 //  AnimationKit-demo
 //
 //  Created by menglin on 2019/9/28.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MLBaseViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
