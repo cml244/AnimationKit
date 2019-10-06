@@ -18,6 +18,9 @@
 		163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */; };
 		163B070C233BBA3300E6BDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B070B233BBA3300E6BDB2 /* main.m */; };
 		163B0714233BBA8900E6BDB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 163B0713233BBA8900E6BDB2 /* README.md */; };
+		16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */; };
+		16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AE60452343A5B600E6FDEA /* MLMenuButton.m */; };
+		16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,12 @@
 		163B070A233BBA3300E6BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163B070B233BBA3300E6BDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		163B0713233BBA8900E6BDB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16890DCC2340FB5200554501 /* UIView+MLBasicAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLBasicAnimation.h"; sourceTree = "<group>"; };
+		16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBasicAnimation.m"; sourceTree = "<group>"; };
+		16AE60442343A5B600E6FDEA /* MLMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLMenuButton.h; sourceTree = "<group>"; };
+		16AE60452343A5B600E6FDEA /* MLMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLMenuButton.m; sourceTree = "<group>"; };
+		16EFB6C9234A3B7000879921 /* UIView+AnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationGroup.h"; sourceTree = "<group>"; };
+		16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationGroup.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,7 @@
 		163B06F8233BBA3100E6BDB2 /* AnimationKit-demo */ = {
 			isa = PBXGroup;
 			children = (
+				16AE603F2343A56A00E6FDEA /* example */,
 				1600E198233F211000AFD2FC /* Main.storyboard */,
 				163B06F9233BBA3100E6BDB2 /* AppDelegate.h */,
 				163B06FA233BBA3100E6BDB2 /* AppDelegate.m */,
@@ -118,6 +128,8 @@
 		163B0716233BC19800E6BDB2 /* CABasicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				16890DCC2340FB5200554501 /* UIView+MLBasicAnimation.h */,
+				16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */,
 			);
 			path = CABasicAnimation;
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 		163B0717233BC19800E6BDB2 /* CAAnimationGroup */ = {
 			isa = PBXGroup;
 			children = (
+				16EFB6C9234A3B7000879921 /* UIView+AnimationGroup.h */,
+				16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */,
 			);
 			path = CAAnimationGroup;
 			sourceTree = "<group>";
@@ -162,6 +176,23 @@
 			children = (
 			);
 			path = UIDynamicAnimator;
+			sourceTree = "<group>";
+		};
+		16AE603F2343A56A00E6FDEA /* example */ = {
+			isa = PBXGroup;
+			children = (
+				16AE60432343A59B00E6FDEA /* menu */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		16AE60432343A59B00E6FDEA /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				16AE60442343A5B600E6FDEA /* MLMenuButton.h */,
+				16AE60452343A5B600E6FDEA /* MLMenuButton.m */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */,
 				163B0701233BBA3100E6BDB2 /* ViewController.m in Sources */,
+				16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */,
 				163B06FB233BBA3100E6BDB2 /* AppDelegate.m in Sources */,
+				16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */,
 				163B070C233BBA3300E6BDB2 /* main.m in Sources */,
 				1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */,
 				1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */,
