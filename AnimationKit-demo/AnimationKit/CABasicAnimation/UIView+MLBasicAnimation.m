@@ -2,8 +2,6 @@
 //  UIView+MLBasicAnimation.m
 //  AnimationKit-demo
 //
-//  https://www.jianshu.com/p/71c880498d7a
-//  https://www.jianshu.com/p/83f7e4e3ceb0
 //  Created by caomenglin on 2019/9/29.
 //  Copyright © 2019 caomenglin. All rights reserved.
 //

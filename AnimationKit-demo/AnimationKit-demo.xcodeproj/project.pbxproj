@@ -20,6 +20,7 @@
 		163B0714233BBA8900E6BDB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 163B0713233BBA8900E6BDB2 /* README.md */; };
 		16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */; };
 		16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AE60452343A5B600E6FDEA /* MLMenuButton.m */; };
+		16E69645234E279200A849BE /* MLKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E69644234E279200A849BE /* MLKeyframeAnimation.m */; };
 		16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBasicAnimation.m"; sourceTree = "<group>"; };
 		16AE60442343A5B600E6FDEA /* MLMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLMenuButton.h; sourceTree = "<group>"; };
 		16AE60452343A5B600E6FDEA /* MLMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLMenuButton.m; sourceTree = "<group>"; };
+		16E69643234E279200A849BE /* MLKeyframeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLKeyframeAnimation.h; sourceTree = "<group>"; };
+		16E69644234E279200A849BE /* MLKeyframeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLKeyframeAnimation.m; sourceTree = "<group>"; };
 		16EFB6C9234A3B7000879921 /* UIView+AnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationGroup.h"; sourceTree = "<group>"; };
 		16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationGroup.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +170,8 @@
 		163B071B233BC19800E6BDB2 /* CAKeyframeAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				16E69643234E279200A849BE /* MLKeyframeAnimation.h */,
+				16E69644234E279200A849BE /* MLKeyframeAnimation.m */,
 			);
 			path = CAKeyframeAnimation;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 				16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */,
 				163B06FB233BBA3100E6BDB2 /* AppDelegate.m in Sources */,
 				16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */,
+				16E69645234E279200A849BE /* MLKeyframeAnimation.m in Sources */,
 				163B070C233BBA3300E6BDB2 /* main.m in Sources */,
 				1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */,
 				1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */,

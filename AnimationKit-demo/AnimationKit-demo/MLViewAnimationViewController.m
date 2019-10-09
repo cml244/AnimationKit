@@ -10,6 +10,7 @@
 #import "UIView+MLBasicAnimation.h"
 #import "UIView+AnimationGroup.h"
 #import "MLMenuButton.h"
+#import "MLKeyframeAnimation.h"
 
 @interface MLViewAnimationViewController ()
 @property (weak, nonatomic) IBOutlet UIView *animationView;
@@ -35,7 +36,9 @@
     transformScale.toValue = @(1.3);
     transformScale.removedOnCompletion = NO;//是否返回到初始状态
     transformScale.fillMode = kCAFillModeForwards;//保持结束后的状态
-    [self.animationView addAnimation:transformX,transformScale,nil];
+//    [self.animationView addAnimation:transformX,transformScale,nil];
+    CAKeyframeAnimation *animation = [MLKeyframeAnimation sideLineRunPath];
+    [self.animationView.layer addAnimation:animation forKey:@"test"];
 }
 
 
