@@ -22,6 +22,7 @@
 		16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AE60452343A5B600E6FDEA /* MLMenuButton.m */; };
 		16E69645234E279200A849BE /* MLKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E69644234E279200A849BE /* MLKeyframeAnimation.m */; };
 		16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */; };
+		16F71B2B235627220056955F /* MLWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F71B29235627220056955F /* MLWaterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		16E69644234E279200A849BE /* MLKeyframeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLKeyframeAnimation.m; sourceTree = "<group>"; };
 		16EFB6C9234A3B7000879921 /* UIView+AnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationGroup.h"; sourceTree = "<group>"; };
 		16EFB6CA234A3B7000879921 /* UIView+AnimationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationGroup.m"; sourceTree = "<group>"; };
+		16F71B29235627220056955F /* MLWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLWaterView.m; sourceTree = "<group>"; };
+		16F71B2A235627220056955F /* MLWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLWaterView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,11 +197,22 @@
 		16AE60432343A59B00E6FDEA /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				16F71B28235627220056955F /* WaterView */,
 				16AE60442343A5B600E6FDEA /* MLMenuButton.h */,
 				16AE60452343A5B600E6FDEA /* MLMenuButton.m */,
 			);
 			path = menu;
 			sourceTree = "<group>";
+		};
+		16F71B28235627220056955F /* WaterView */ = {
+			isa = PBXGroup;
+			children = (
+				16F71B29235627220056955F /* MLWaterView.m */,
+				16F71B2A235627220056955F /* MLWaterView.h */,
+			);
+			name = WaterView;
+			path = "AnimationKit-demo/example/WaterView";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -278,6 +292,7 @@
 				163B06FB233BBA3100E6BDB2 /* AppDelegate.m in Sources */,
 				16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */,
 				16E69645234E279200A849BE /* MLKeyframeAnimation.m in Sources */,
+				16F71B2B235627220056955F /* MLWaterView.m in Sources */,
 				163B070C233BBA3300E6BDB2 /* main.m in Sources */,
 				1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */,
 				1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */,

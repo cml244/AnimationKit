@@ -11,6 +11,7 @@
 #import "UIView+AnimationGroup.h"
 #import "MLMenuButton.h"
 #import "MLKeyframeAnimation.h"
+#import "MLWaterView.h"
 
 @interface MLViewAnimationViewController ()
 @property (weak, nonatomic) IBOutlet UIView *animationView;
@@ -24,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self addWaterButtonView];
     
 }
 - (IBAction)clickAction:(UIButton *)sender {
@@ -41,6 +43,13 @@
     [self.animationView.layer addAnimation:animation forKey:@"test"];
 }
 
+
+-(void)addWaterButtonView{
+    MLWaterView *waterButton = [[MLWaterView alloc]initWithFrame:CGRectMake(100, 450, 100, 100)];
+//    waterButton.clipsToBounds = YES;
+//    waterButton.layer.cornerRadius = 50;
+    [self.view addSubview:waterButton];
+}
 
 
 @end
