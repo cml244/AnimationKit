@@ -7,6 +7,7 @@
 //
 
 #import "MLBaseViewController.h"
+#import "UIViewController+MLTransitioning.h"
 
 @interface MLBaseViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     if(self.navigationController.viewControllers.count == 1){
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(0, 0, 80, 40);
@@ -29,7 +31,7 @@
 }
 
 - (void)cancelAction{
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController ml_dismissViewControllerAnimated:YES animationStyle:MLTransitionAnimationStyleScaleClose completion:nil];
 }
 
 @end

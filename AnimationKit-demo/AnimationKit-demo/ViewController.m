@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIViewController+MLTransitioning.h"
+#import "MLTransitionManager.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) NSArray *data;
@@ -60,7 +62,8 @@
     NSString *vcName = self.data[indexPath.row][@"vc"];
     UIViewController * vc = [[NSClassFromString(vcName) alloc]  initWithNibName:vcName bundle:nil];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
-    [self presentViewController:navi animated:YES completion:nil];
+    navi.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self ml_presentViewController:navi animationStyle:MLTransitionAnimationStyleScaleOpen animated:YES completion:nil];
 
 }
 

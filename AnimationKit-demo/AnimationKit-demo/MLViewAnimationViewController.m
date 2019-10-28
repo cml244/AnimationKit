@@ -12,6 +12,8 @@
 #import "MLMenuButton.h"
 #import "MLKeyframeAnimation.h"
 #import "MLWaterView.h"
+#import "MLTransitionManager.h"
+#import "UIViewController+MLTransitioning.h"
 
 @interface MLViewAnimationViewController ()
 @property (weak, nonatomic) IBOutlet UIView *animationView;
@@ -36,6 +38,9 @@
     transition.startProgress = 0.5;
     transition.endProgress = 0.8;
     [self.animationView.layer addAnimation:transition forKey:nil];
+    
+    MLViewAnimationViewController *vc = [MLViewAnimationViewController new];
+    [self.navigationController ml_pushViewController:vc animationStyle:MLTransitionAnimationStyleScaleOpen animated:YES];
 }
 
 

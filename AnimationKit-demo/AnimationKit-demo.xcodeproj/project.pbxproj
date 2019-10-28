@@ -18,6 +18,8 @@
 		163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */; };
 		163B070C233BBA3300E6BDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B070B233BBA3300E6BDB2 /* main.m */; };
 		163B0714233BBA8900E6BDB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 163B0713233BBA8900E6BDB2 /* README.md */; };
+		1662CFC523669AEE008EF111 /* MLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662CFC423669AEE008EF111 /* MLTransitionManager.m */; };
+		1662CFCE2366B6CF008EF111 /* MLScaleAnimationPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662CFCD2366B6CF008EF111 /* MLScaleAnimationPop.m */; };
 		16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */; };
 		16A6D92223570DA500D95D00 /* UIViewController+MLTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A6D92123570DA500D95D00 /* UIViewController+MLTransitioning.m */; };
 		16A6D92623571DA900D95D00 /* MLScaleAnimationPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A6D92523571DA900D95D00 /* MLScaleAnimationPush.m */; };
@@ -47,6 +49,10 @@
 		163B070A233BBA3300E6BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163B070B233BBA3300E6BDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		163B0713233BBA8900E6BDB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1662CFC323669AEE008EF111 /* MLTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTransitionManager.h; sourceTree = "<group>"; };
+		1662CFC423669AEE008EF111 /* MLTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTransitionManager.m; sourceTree = "<group>"; };
+		1662CFCC2366B6CF008EF111 /* MLScaleAnimationPop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLScaleAnimationPop.h; sourceTree = "<group>"; };
+		1662CFCD2366B6CF008EF111 /* MLScaleAnimationPop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLScaleAnimationPop.m; sourceTree = "<group>"; };
 		16890DCC2340FB5200554501 /* UIView+MLBasicAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLBasicAnimation.h"; sourceTree = "<group>"; };
 		16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBasicAnimation.m"; sourceTree = "<group>"; };
 		16A6D92023570DA500D95D00 /* UIViewController+MLTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MLTransitioning.h"; sourceTree = "<group>"; };
@@ -180,6 +186,8 @@
 				16A6D92123570DA500D95D00 /* UIViewController+MLTransitioning.m */,
 				16A6D927235728C300D95D00 /* MLNavigationAnimationDelegate.h */,
 				16A6D928235728C300D95D00 /* MLNavigationAnimationDelegate.m */,
+				1662CFC323669AEE008EF111 /* MLTransitionManager.h */,
+				1662CFC423669AEE008EF111 /* MLTransitionManager.m */,
 			);
 			path = CATransition;
 			sourceTree = "<group>";
@@ -205,6 +213,8 @@
 			children = (
 				16A6D92423571DA900D95D00 /* MLScaleAnimationPush.h */,
 				16A6D92523571DA900D95D00 /* MLScaleAnimationPush.m */,
+				1662CFCC2366B6CF008EF111 /* MLScaleAnimationPop.h */,
+				1662CFCD2366B6CF008EF111 /* MLScaleAnimationPop.m */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -309,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1662CFCE2366B6CF008EF111 /* MLScaleAnimationPop.m in Sources */,
 				16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */,
 				163B0701233BBA3100E6BDB2 /* ViewController.m in Sources */,
 				16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */,
@@ -319,6 +330,7 @@
 				16AE60462343A5B600E6FDEA /* MLMenuButton.m in Sources */,
 				16E69645234E279200A849BE /* MLKeyframeAnimation.m in Sources */,
 				16F71B2B235627220056955F /* MLWaterView.m in Sources */,
+				1662CFC523669AEE008EF111 /* MLTransitionManager.m in Sources */,
 				163B070C233BBA3300E6BDB2 /* main.m in Sources */,
 				1600E19D233F5C6100AFD2FC /* UIView+MLAnimation.m in Sources */,
 				1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */,
