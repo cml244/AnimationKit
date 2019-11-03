@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIViewController+MLTransitioning.h"
 #import "MLTransitionManager.h"
+#import "MLLiveLikeViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) NSArray *data;
@@ -25,8 +26,9 @@
                   @{@"name":@"CAAnimationGroup",@"vc":@"MLViewAnimationViewController"},
                   @{@"name":@"CAKeyframeAnimation",@"vc":@"MLViewAnimationViewController"},
                   @{@"name":@"CATransition",@"vc":@"MLViewAnimationViewController"},
-                  @{@"name":@"CAEmitterLayer",@"vc":@"MLViewAnimationViewController"},
-                  @{@"name":@"CADisplayLink",@"vc":@"MLViewAnimationViewController"}];
+                  @{@"name":@"CAEmitterLayer",@"vc":@"MLLiveLikeViewController"},
+                  @{@"name":@"CADisplayLink",@"vc":@"MLViewAnimationViewController"},
+                  @{@"name":@"DynamicAnimator",@"vc":@"MLDynamicAnimatorViewController"}];
     self.view.backgroundColor = [UIColor whiteColor];
     [self initView];
 }
@@ -60,7 +62,12 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *vcName = self.data[indexPath.row][@"vc"];
-    UIViewController * vc = [[NSClassFromString(vcName) alloc]  initWithNibName:vcName bundle:nil];
+    UIViewController * vc = nil;
+    if(indexPath.row == 5){
+        vc = [[NSClassFromString(vcName) alloc]  init];
+    }else{
+        vc = [[NSClassFromString(vcName) alloc]  initWithNibName:vcName bundle:nil];
+    }
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     navi.modalPresentationStyle = UIModalPresentationFullScreen;
     [self ml_presentViewController:navi animationStyle:MLTransitionAnimationStyleScaleOpen animated:YES completion:nil];
