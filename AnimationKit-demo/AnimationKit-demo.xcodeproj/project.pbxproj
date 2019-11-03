@@ -12,7 +12,6 @@
 		1600E1A1233F5D3000AFD2FC /* MLViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600E19F233F5D3000AFD2FC /* MLViewAnimationViewController.m */; };
 		1600E1A2233F5D3000AFD2FC /* MLViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600E1A0233F5D3000AFD2FC /* MLViewAnimationViewController.xib */; };
 		1600E1A5233F5FED00AFD2FC /* MLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600E1A4233F5FED00AFD2FC /* MLBaseViewController.m */; };
-		161834CC2369922800750E85 /* MLEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 161834CB2369922800750E85 /* MLEmitterLayer.m */; };
 		161834D02369AE7D00750E85 /* MLLiveLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161834CF2369AE7D00750E85 /* MLLiveLikeViewController.m */; };
 		161834D32369AEB600750E85 /* heart2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161834D12369AEB600750E85 /* heart2@2x.png */; };
 		161834D42369AEB600750E85 /* heart2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161834D22369AEB600750E85 /* heart2@3x.png */; };
@@ -22,6 +21,8 @@
 		163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B0707233BBA3300E6BDB2 /* LaunchScreen.storyboard */; };
 		163B070C233BBA3300E6BDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B070B233BBA3300E6BDB2 /* main.m */; };
 		163B0714233BBA8900E6BDB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 163B0713233BBA8900E6BDB2 /* README.md */; };
+		16603485236E71E30082454F /* MLDisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16603483236E71E30082454F /* MLDisplayLinkViewController.m */; };
+		16603486236E71E30082454F /* MLDisplayLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16603484236E71E30082454F /* MLDisplayLinkViewController.xib */; };
 		1662CFC523669AEE008EF111 /* MLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662CFC423669AEE008EF111 /* MLTransitionManager.m */; };
 		1662CFCE2366B6CF008EF111 /* MLScaleAnimationPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662CFCD2366B6CF008EF111 /* MLScaleAnimationPop.m */; };
 		16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16890DCD2340FB5200554501 /* UIView+MLBasicAnimation.m */; };
@@ -46,8 +47,6 @@
 		1600E1A0233F5D3000AFD2FC /* MLViewAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLViewAnimationViewController.xib; sourceTree = "<group>"; };
 		1600E1A3233F5FED00AFD2FC /* MLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBaseViewController.h; sourceTree = "<group>"; };
 		1600E1A4233F5FED00AFD2FC /* MLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBaseViewController.m; sourceTree = "<group>"; };
-		161834CA2369922800750E85 /* MLEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLEmitterLayer.h; sourceTree = "<group>"; };
-		161834CB2369922800750E85 /* MLEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLEmitterLayer.m; sourceTree = "<group>"; };
 		161834CE2369AE7D00750E85 /* MLLiveLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLLiveLikeViewController.h; sourceTree = "<group>"; };
 		161834CF2369AE7D00750E85 /* MLLiveLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLLiveLikeViewController.m; sourceTree = "<group>"; };
 		161834D12369AEB600750E85 /* heart2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart2@2x.png"; sourceTree = "<group>"; };
@@ -62,6 +61,9 @@
 		163B070A233BBA3300E6BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163B070B233BBA3300E6BDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		163B0713233BBA8900E6BDB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16603482236E71E30082454F /* MLDisplayLinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDisplayLinkViewController.h; sourceTree = "<group>"; };
+		16603483236E71E30082454F /* MLDisplayLinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDisplayLinkViewController.m; sourceTree = "<group>"; };
+		16603484236E71E30082454F /* MLDisplayLinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLDisplayLinkViewController.xib; sourceTree = "<group>"; };
 		1662CFC323669AEE008EF111 /* MLTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTransitionManager.h; sourceTree = "<group>"; };
 		1662CFC423669AEE008EF111 /* MLTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTransitionManager.m; sourceTree = "<group>"; };
 		1662CFCC2366B6CF008EF111 /* MLScaleAnimationPop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLScaleAnimationPop.h; sourceTree = "<group>"; };
@@ -150,6 +152,9 @@
 				16C479EE236D76B700554AE5 /* MLDynamicAnimatorViewController.h */,
 				16C479EF236D76B700554AE5 /* MLDynamicAnimatorViewController.m */,
 				16C479F0236D76B700554AE5 /* MLDynamicAnimatorViewController.xib */,
+				16603482236E71E30082454F /* MLDisplayLinkViewController.h */,
+				16603483236E71E30082454F /* MLDisplayLinkViewController.m */,
+				16603484236E71E30082454F /* MLDisplayLinkViewController.xib */,
 			);
 			path = "AnimationKit-demo";
 			sourceTree = "<group>";
@@ -160,7 +165,6 @@
 				163B0717233BC19800E6BDB2 /* CAAnimationGroup */,
 				163B0716233BC19800E6BDB2 /* CABasicAnimation */,
 				163B0718233BC19800E6BDB2 /* CADisplayLink */,
-				163B0719233BC19800E6BDB2 /* CAEmitterLayer */,
 				163B071B233BC19800E6BDB2 /* CAKeyframeAnimation */,
 				163B071A233BC19800E6BDB2 /* CATransition */,
 				163B071C233BC19800E6BDB2 /* UIDynamicAnimator */,
@@ -201,15 +205,6 @@
 			children = (
 			);
 			path = CADisplayLink;
-			sourceTree = "<group>";
-		};
-		163B0719233BC19800E6BDB2 /* CAEmitterLayer */ = {
-			isa = PBXGroup;
-			children = (
-				161834CA2369922800750E85 /* MLEmitterLayer.h */,
-				161834CB2369922800750E85 /* MLEmitterLayer.m */,
-			);
-			path = CAEmitterLayer;
 			sourceTree = "<group>";
 		};
 		163B071A233BC19800E6BDB2 /* CATransition */ = {
@@ -341,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16603486236E71E30082454F /* MLDisplayLinkViewController.xib in Resources */,
 				161834D42369AEB600750E85 /* heart2@3x.png in Resources */,
 				1600E1A2233F5D3000AFD2FC /* MLViewAnimationViewController.xib in Resources */,
 				163B0709233BBA3300E6BDB2 /* LaunchScreen.storyboard in Resources */,
@@ -363,7 +359,7 @@
 				16890DCE2340FB5200554501 /* UIView+MLBasicAnimation.m in Sources */,
 				163B0701233BBA3100E6BDB2 /* ViewController.m in Sources */,
 				16EFB6CB234A3B7000879921 /* UIView+AnimationGroup.m in Sources */,
-				161834CC2369922800750E85 /* MLEmitterLayer.m in Sources */,
+				16603485236E71E30082454F /* MLDisplayLinkViewController.m in Sources */,
 				16A6D92623571DA900D95D00 /* MLScaleAnimationPush.m in Sources */,
 				16A6D929235728C300D95D00 /* MLNavigationAnimationDelegate.m in Sources */,
 				16A6D92223570DA500D95D00 /* UIViewController+MLTransitioning.m in Sources */,

@@ -27,7 +27,7 @@
                   @{@"name":@"CAKeyframeAnimation",@"vc":@"MLViewAnimationViewController"},
                   @{@"name":@"CATransition",@"vc":@"MLViewAnimationViewController"},
                   @{@"name":@"CAEmitterLayer",@"vc":@"MLLiveLikeViewController"},
-                  @{@"name":@"CADisplayLink",@"vc":@"MLViewAnimationViewController"},
+                  @{@"name":@"CADisplayLink",@"vc":@"MLDisplayLinkViewController"},
                   @{@"name":@"DynamicAnimator",@"vc":@"MLDynamicAnimatorViewController"}];
     self.view.backgroundColor = [UIColor whiteColor];
     [self initView];
